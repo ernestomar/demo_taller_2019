@@ -12,8 +12,8 @@ public class CursoBl {
   AlumnoDao alumnoDao;
 
   @Autowired
-  CursoBl (AlumnoDao aluDao) {
-    this.alumnoDao = aluDao;
+  CursoBl (AlumnoDao alumnoDao) {
+    this.alumnoDao = alumnoDao;
   }
 
   public Alumno buscarPorId(int alumnoId) {

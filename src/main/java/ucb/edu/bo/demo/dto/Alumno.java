@@ -1,7 +1,8 @@
 package ucb.edu.bo.demo.dto;
-
+import javax.persistence.*;
+@Entity
 public class Alumno {
-  private Integer alumnoId;
+  private @Id @GeneratedValue Integer alumnoId;
   private String nombre;
   private String apellido;
 
